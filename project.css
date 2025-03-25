@@ -1,0 +1,136 @@
+.icon{
+color: black;
+}
+.nav-bar{
+ padding: 5px 50px;
+
+ /* padding-right:10px; */
+ border-radius: 40px;
+width: 600px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+.bt1{
+border: none;
+outline: none;
+background-color: aqua;
+border-radius: 90px;
+width: 98px;
+height:47px;
+padding: 10px;
+color: white;
+}
+
+.bt2{
+    border: none;
+outline: none;
+background-color:#00A3FF;
+border-radius: 90px;
+color: white;
+width: 98px;
+height:47px;
+padding: 10px;
+}
+.content{
+    /* border: 1px solid black; */
+   padding: 100px;
+  
+}
+.cont1{
+    color: #16499D;
+}
+.cont2{
+    color: red;
+}
+.bt3{
+    border: none;
+    outline: none;
+background-image: linear-gradient(to right,#003D60,#00E0FF);
+padding: 10px;
+border-radius: 6px;
+width: 190px;
+    height: 50px;
+}
+.header{
+    background-image: url('./medusys_images/bg.jpg');
+    background-repeat: no-repeat;
+    width:100%;
+    background-size: 100%;
+}
+.continue{
+    background-color: #D0DFFF;
+    width:109%;
+    margin-top:50px;
+  padding: 10px;
+    text-align: center;
+    position: relative;
+    right: 17px;
+    top: 32px;
+    border-radius: 5px;
+}
+
+.card-text{
+    font-size: 14px;
+}
+   
+
+ .img12{
+    background-color:#B7D4D8 ;
+    padding: 20px 80px;
+    border-radius: 20px;
+ }
+ .cont2{
+    color: red;
+ }
+ .content2{
+    background-image: url(medusys_images/Background\ \(4\).png);
+   padding: 20px 80px;
+    width: 980px;
+    border-radius: 0px 10px 10px 10px;
+
+
+ }
+ .head-text{
+    color: red;
+ }
+ .footer-1{
+    background-color: #EFF3FC;
+    border-radius: 60px 60px 0px 0px;
+    padding: 40px;
+   
+ }
+ .footer{
+    border-bottom: 2px solid grey;
+ }
+ .icon1{
+    color: #1678F2;
+ }
+ .refund{
+    color: #4A3AFF;
+ }
+
+/* phone view */
+@media screen and (max-width:628px) {
+    .nav-bar{
+      width: 40%;
+    border-radius: 20px;
+    }
+    .header{
+        width: 100%;
+    }
+ .cont3{
+    padding-left: 10px;
+ }
+    .card{
+       width: 60%;
+       padding: 20px 5px;
+       margin: 10px 0px;
+    }
+    .content2{
+        background-size: 100%;
+        width: 100%;
+  }
+}
+  
